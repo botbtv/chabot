@@ -5,7 +5,7 @@ import os
 import openai
 
 load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("sk-torah-3nP4I9mZCP7AmzbpTiDoT3BlbkFJztZTgYGUvCpJQxWQmoJU")
 
 mensajes = {}
 
@@ -46,7 +46,7 @@ async def message_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 def main():
     #Cargamos el token de la API de Telegram
-    TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+    TELEGRAM_TOKEN = os.getenv("7443478476:AAHt0Bn1lwkIfdNfz_2GYkfF0EAm-8ZYBPU")
     #Creamos el bot
     bot = Application.builder().token(TELEGRAM_TOKEN).build()
 
